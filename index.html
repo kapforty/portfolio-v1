@@ -1,9 +1,13 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <title>Jordan's Portfolio</title>
     <meta name="author" content="Jordan Peranginangin">
     <link rel="stylesheet" href="styles.css">
+    <style>
+        img {border-radius: 50%;}
+    </style>
 </head>
 
 <body>
@@ -15,28 +19,283 @@
             <a href="">Settings</a>
         </nav>
         <h2>Hey! My name is</h2>
-        <h1>Jordan Peranginangin. I build things for the web.</h1>
-        <h3>I'm a sophomore studying Computer Science at UCSD and an entrepreneurial full-stack developer with a passion for building innovative projects that utilize blockchain technology.</h3>
+        <h1>Jordan Peranginangin. <br> I build things for the web.</h1>
+        <h3>
+            <span style="color:gray">
+                I'm a sophomore studying Computer Science at UCSD and an entrepreneurial full-stack developer with a passion for building innovative projects that utilize blockchain technology.
+            </span>    
+        </h3>
     </header>
 
+    <hr>
+
     <main>
-        <h1>Projects</h1>
-        <img src="project1.jpg" alt="Project #1" width="480" height="270">
-        <caption>A proof-of-concept cryptocurrency miner and wallet written with GoLang. Based on the design described in the Bitcoin whitepaper.</p>
-        <img src="project2.jpg" alt="Project #2" width="480" height="270">
-        <caption>Logistic regression model that predicts a company's debt rating based on financial report data.</p>
-        <img src="project3.jpg" alt="Project #3" width="480" height="270">
-        <caption>Optimized storage system to serve as a database for distributed blockchain applications, such as a cryptocurrency</p>
+        <div class="Projects">
+            <h1>Projects</h1>
+            <img src="project1.jpg" alt="Project #1" width="480" height="270">
+            <p>A <strong>proof-of-concept</strong> cryptocurrency miner and wallet written with <b>GoLang</b>. Based on the design described in the <i>Bitcoin</i> whitepaper.</p>
+            <img src="project2.jpg" alt="Project #2" width="480" height="270">
+            <p>Logistic regression model that predicts a company's debt rating based on financial report data.</p>
+            <img src="project3.jpg" alt="Project #3" width="480" height="270">
+            <p>Optimized storage system to serve as a database for <em>distributed blockchain applications</em>, such as a cryptocurrency</p>
+        </div>
+
+        <h1>Experience</h1>
+        <img src="popstand.jpg" alt="Popstand Logo" width="200" height="200">
+        <h4>Lead Developer</h4>
+        <h6>Apr 2021 - Jan 2023</h6>
+        <ul>
+            <li>Developed a role-playing game powered by the WAX blockchain; generated \$170,000 in gross revenue and currently have 5000+ active members</li>
+            <li>Helped existing projects reduce operating costs by transitioning from traditional databases to Google Firebase, introducing a suite of tools/services such as cloud functions, crash reporting, and realtime analytics</li>
+            <li>Led group of four engineers to build a social cryptocurrency called DUST for Telegram and Discord, assisting developers to maintain quality standards while executing their scopes of work</li>
+            <li>Audited 100+ Solidity and EOSIO smart contracts, identifying and resolving issues in 23\% of reviewed contracts</li>
+        </ul>
+        <img src="popstand.jpg" alt="Popstand Logo" width="200" height="200">
+        <h4>Software Engineering Intern</h4>
+        <h6>Jul 2020 - Mar 2021</h6>
+        <ul>
+            <li>Developed backend infrastructure for an iOS/Android NFT portfolio application to interact with WAX, Ethereum, and Flow networks</li>
+            <li>Proposed and implemented mining algorithm optimizations using a layer-2 Ethereum scaling solution called Polygon, improving transaction efficiency, scalability, and security</li>
+            <li>Wrote proposals which secured \$40,000 in funding from launch pads and angel investors, worked in business operations to maximize revenue streams</li>
+            <li>Learned about the fundamental technologies within the blockchain space, exposed to smart contract languages and tools such as Solidity, web3.js, ethers.js, and Hardhat while strengthening skills in JavaScript and Python</li>
+        </ul>
+        <img src="robolink.jpg" alt="Robolink Logo" width="200" height="200">
+        <h4>Robotics Instructor</h4>
+        <h6>Jun 2021 - Sep 2021</h6>
+        <ul>
+            <li>Curated educational content about engineering and robotics for middle school and high school students</li>
+            <li>Provided virtual and in-person instruction; specializing in computer vision and artificial intelligence</li>
+            <li>Taught students the basics of developing and training machine learning models in Python using Tensorflow and Jupyter Notebook</li>
+        </ul>
+        <img src="robolink.jpg" alt="Robolink Logo" width="200" height="200">
+        <h4>Robotic Engineering Intern</h4>
+        <h6>Nov 2019 - May 2021</h6>
+        <ul>
+            <li>Developed artificial intelligence and self-driving algorithms for the Codrone Mini and Zumi (Robolink's Educational Robots</li>
+            <li>Helped with unit/performance testing, wrote detailed reports, and presented findings to developers in United States and Korea</li>
+            <li>Conducted virtual seminars on Robolink products for the Future of Education Technology Conference and the International Society of Technology in Education Conference</li>
+        </ul>
+
+        <h1>Skills</h1>
+        <h3>Languages</h3>
+        <ul>
+            <li>C++</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>JavaScript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+        </ul>
+        <h3>Front-End</h3>
+        <ul>
+            <li>React</li>
+            <li>Material UI</li>
+        </ul>
+        <h3>Back-End</h3>
+        <ul>
+            <li>Database Architecture</li>
+            <li>Express</li>
+            <li>Node.js</li>
+            <li>MongoDB</li>
+            <li>Google Firebase</li>
+        </ul>
+        <h3>iOS Development</h3>
+        <ul>
+            <li>Swift UI</li>
+            <li>UI Kit</li>
+        </ul>
+        <h3>DevOps</h3>
+        <ul>
+            <li>AWS S3</li>
+            <li>Docker</li>
+            <li>Firebase</li>
+            <li>Google Cloud</li>
+            <li>Heroku</li>
+        </ul>
+        <h3>Other Tools/Services</h3>
+        <ul>
+            <li>Figma</li>
+            <li>Git</li>
+            <li>Jupyter Notebook</li>
+            <li>MATLAB</li>
+            <li>Selenium</li>
+            <li>Tensorflow</li>
+        </ul>
     </main>
 
-    <footer></footer>
+    <br><br><br><br><br>
+    <footer>
+        <b>JORDAN PERANGINANGIN © 2023</b>
+    </footer>
+
+
+    <br><br><br><br><br>
+    <h1>Experiments</h1>
+    <section>
+        <h6>Testing section tag...</h6>
+    </section>
+    <aside>
+        Testing aside tag...
+    </aside>
+    <picture>
+        <source media="(min-width:200px)" srcset="test.jpg">
+        <img src="test.jpg" alt="test">
+    </picture>
+    <code><br>this code tag is pretty cool!</code>
+    <pre>
+        Testing
+         Testing
+          Testing
+           Testing
+            Testing
+           Testing
+          Testing
+         Testing
+        Testing
+    </pre>
+
+    <iframe src="https://www.google.com" title="Google iFrame"></iframe>
+
+    <br><br>
+
+    <audio controls>
+        <source src="test.mp3" type="audio/mpeg">
+    </audio>
+
+    <br><br>
+
+    <video width="480" height="270" controls>
+        <source src="test.mp4" type="video/mp4">
+    </video>
+
+    <br><br>
+
+    <form>
+        <label for="formTest1">Form Test:</label>
+        <input type="text" id="formTest1" name="formTest1">
+    </form>
+
+    <br><br>
+
+    <canvas id="testCanvas">
+        Testing canvas...
+    </canvas>
+        
+    <br>
+
+    <script>
+        var canvas = document.getElementById("testCanvas");
+        var ctx = canvas.getContext("2d");
+        ctx.fillRect(0, 0, 1000, 8000);
+    </script>
+
+    <br>
+
+    <svg width="300" height="300">
+        <rect x="50" y="50" rx="50" ry="50" width="222" height="222"/>
+    </svg>
+
+    <br>
+
+    <button type="button">Test Button</button>
+
+    <br><br>
+
+    <label for="testList">Testing List:</label>
+    <input list="testList2" name="testList" id="testList">
+
+    <datalist id="testList2">
+        <option value="uno">
+        <option value="dos">
+        <option value="tres">
+    </datalist>
+
+    <br>
+
+    <ul>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ul>
+    <ol>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ol>
+
+    <br>
+
+    <label for="team">Choose a team:</label>
+    <select  name="team" id="team">
+        <optgroup label="Football Teams">
+            <option value="eagles">Philadelphia Eagles</option>
+            <option value="chiefs">Kansas City Chiefs</option>
+        </optgroup>
+        <optgroup label="Soccer Teams">
+            <option value="barcelona">FC Barcelona</option>
+            <option value="liverpool">Liverpool</option>
+        </optgroup>
+        <optgroup label="Hocky Teams">
+            <option value="ducks">Anaheim Ducks</option>
+            <option value="kings">Los Angeles Kings</option>
+        </optgroup>
+    </select>
+
+    <br>
+
+    <fieldset>
+        <legend>Fieldset</legend>
+        <label for="fname">Input:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <input type="submit" value="Submit">
+    </fieldset>
+
+    <textarea id="testt" name="testt" rows="3" cols="100">
+        The "textarea" tag is quite interesting...
+    </textarea>
+    <br>
+    <details>
+        <summary>Testing Details/Summary</summary>
+        <p>You can toggle this text...</p>
+    </details>
+
+      
+    <template>
+        <h3>Hidden test text</h3>
+    </template>
+    
+    <br>
+
+    <table>
+        <caption>Caption to Table</caption>
+        <colgroup>
+            <col span="3" style="background-color:green">
+        </colgroup>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Ethnicity</th>
+        </tr>
+        <tr>
+          <td>Jordan</td>
+          <td>20</td>
+          <td>Asian</td>
+        </tr>
+    </table>
+
+    <figure>
+        <img src="test.jpg" alt="Empty Test Image" style="width:40%">
+        <figcaption>Figcption to Empty Test Image</figcaption>
+    </figure>
+
+    
+
+
+
+
+
+
+
 
 </body> 
 </html>
-<!-- script*, style*, 
-section, aside, div, span, 
-br, b, i, strong, em, code, pre, hr, a, img, picture, iframe, 
-audio, video, source, canvas*, svg* ul, ol, optgroup, li, 
-form, label, fieldset, legend, input, textarea, datalist, 
-select, option, details, summary, button, template, table, 
-tr, td, th, p, col, colgroup, figure, figcaption -->
