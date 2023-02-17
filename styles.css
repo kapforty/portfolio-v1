@@ -34,13 +34,13 @@
 .hero-content h1, h2 {
     margin-bottom: -10px;
     color: white;
-    font-family: Nunito;
+    font-family: Nunito, sans-serif;
 }
 
 .hero-content p {
     margin-bottom: -10px;
     color: #B3B3B3;
-    font-family: Nunito;
+    font-family: Nunito, sans-serif;
 }
 
 .main-content {
@@ -48,7 +48,7 @@
     flex-direction: column;
     margin-left: 12vw;
     margin-right: 12vw;
-    font-family: Nunito;
+    font-family: Nunito, sans-serif;
 }
 
 .projects-content {
@@ -86,7 +86,7 @@
 .experience-content h3, h4 {
     margin-bottom: -10px;
     color: black;
-    font-family: Nunito;
+    font-family: Nunito, sans-serif;
 }
 
 .experience-content img {
