@@ -1,0 +1,108 @@
+.nav-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+    padding-left: 12vw;
+    padding-right: 12vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.nav-content a img {
+    width: 30px;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 12vw;
+    padding-right: 12vw;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #4F1374;
+    border-radius: 30px;
+    margin-left: 12vw;
+    margin-right: 12vw;
+}
+
+.hero-content h1, h2 {
+    margin-bottom: -10px;
+    color: white;
+    font-family: Nunito;
+}
+
+.hero-content p {
+    margin-bottom: -10px;
+    color: #B3B3B3;
+    font-family: Nunito;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12vw;
+    margin-right: 12vw;
+    font-family: Nunito;
+}
+
+.projects-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 50px;
+    gap: 20px;
+}
+
+.project-item  {
+    
+}
+
+.project-item img{
+    max-width: 100%;
+}
+
+.project-item p {
+    padding: 20px;
+}
+
+.experience-item {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 5vw;
+}
+
+.experience-content {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.experience-content h3, h4 {
+    margin-bottom: -10px;
+    color: black;
+    font-family: Nunito;
+}
+
+.experience-content img {
+    margin-top: 25px;
+}
+
+.skills-content {
+    margin-bottom: 50px;
+}
+
+.footer-content {
+    text-align: center;
+    font-weight: bold;
+}
+
+h3 {
+    color: #B3B3B3;
+}
+
+@font-face {
+    font-family: Nunito;
+    src: url("public/Nunito-VariableFont_wght.ttf");
+}
