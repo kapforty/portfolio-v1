@@ -1,3 +1,7 @@
+:root {
+    --main-purple: #4F1374;
+}
+
 .nav-content {
     display: flex;
     flex-direction: row;
@@ -21,7 +25,7 @@
     padding-right: 12vw;
     padding-top: 70px;
     padding-bottom: 70px;
-    background-color: #4F1374;
+    background-color: var(--main-purple);
     border-radius: 30px;
     margin-left: 12vw;
     margin-right: 12vw;
