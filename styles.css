@@ -62,12 +62,8 @@
 .projects-content {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-bottom: 50px;
     gap: 20px;
-}
-
-.project-item  {
-    
+    margin-bottom: 0px;
 }
 
 .project-item img{
@@ -88,7 +84,6 @@
 .experience-content {
     display: flex;
     flex-direction: column;
-    margin-bottom: 30px;
 }
 
 .experience-content h3, h4 {
@@ -115,10 +110,6 @@ body {
     width: 100%;
 }
 
-header {
-
-}
-
 h3 {
     color: #B3B3B3;
 }
@@ -126,6 +117,11 @@ h3 {
 a {
     color: black;
     text-decoration: none;
+}
+
+footer {
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 @font-face {
