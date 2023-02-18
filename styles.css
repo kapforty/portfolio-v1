@@ -26,9 +26,6 @@
     padding-top: 70px;
     padding-bottom: 70px;
     background-color: var(--main-purple);
-    border-radius: 30px;
-    margin-left: 12vw;
-    margin-right: 12vw;
 }
 
 .hero-content h1, h2 {
@@ -100,6 +97,15 @@
 .footer-content {
     text-align: center;
     font-weight: bold;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+}
+
+header {
+
 }
 
 h3 {
