@@ -180,8 +180,10 @@ a {
 }
 
 footer {
+    background-color: var(--main-purple);
     padding-top: 15px;
     padding-bottom: 15px;
+    color: white;
 }
 
 @font-face {
