@@ -64,8 +64,6 @@
 .main-content {
     display: flex;
     flex-direction: column;
-    /* margin-left: 12vw;
-    margin-right: 12vw; */
     font-family: Nunito, sans-serif;
     min-width: 50vw;
     max-width: 900px;
@@ -81,13 +79,26 @@
     margin-bottom: 0px;
 }
 
+.project-item {
+    box-shadow: 0 0 0.9em 0.15em rgba(0, 0, 0, 0.25);
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+.project-item:hover {
+    box-shadow: 0 0 0.95em 0.25em rgba(0, 0, 0, 0.25);
+    opacity: 0.8;
+}
+
 .project-item img{
-    max-width: 100%;
+    width: 100%;
     object-fit: cover;
 }
 
 .project-item p {
-    padding: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
 }
 
 .experience-item {
@@ -174,11 +185,6 @@ a {
     text-decoration: none;
 }
 
-.project-item p {
-    margin: 0px;
-    padding: 0px;
-}
-
 footer {
     background-color: var(--main-purple);
     padding-top: 15px;
@@ -191,8 +197,32 @@ footer {
     src: url("public/Nunito-VariableFont_wght.ttf");
 }
 
-@media only screen and (max-width:480px) {
-    .footer {
+@media only screen and (max-width:700px) {
+    footer {
         display: none;
+    }
+
+    .projects-content {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        margin-bottom: 0px;
+    }
+    
+    .project-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .project-item img {
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .project-item p {
+        padding: 20px;
     }
 }
