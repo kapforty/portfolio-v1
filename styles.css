@@ -248,7 +248,7 @@ footer {
     }
 }
 
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:450px) {
     .experience-header-info h5 {
         display: none;
     }
