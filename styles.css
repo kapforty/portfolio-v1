@@ -114,29 +114,48 @@
     flex-direction: column;
 }
 
-.experience-content h3 {
-    font-size: 1.5rem;
-    color: black;
+.experience-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
 }
 
-.experience-content h4 {
-    color: grey;
-    font-weight: 700;
+.experience-header img {
+    border-radius: 50%;
 }
 
-.experience-content h5 {
-    color: grey;
-    font-weight: 300;
-}
-
-.experience-content h3, h4, h5 {
-    margin-top: 12px;
-    margin-bottom: -10px;
+.experience-header-info {
+    vertical-align: middle;
     font-family: Nunito, sans-serif;
 }
 
-.experience-content img {
-    border-radius: 50%;
+.experience-header-info h3 {
+    font-size: 1.5rem;
+    color: black;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.experience-header-info h4 {
+    color: grey;
+    font-weight: 700;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.experience-header-info h5 {
+    color: grey;
+    font-weight: 300;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.experience-body {
+    margin-top: -20px;
+    padding-left: 80px;
+    padding-bottom: 20px;
 }
 
 .skills-content {
