@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <button id="alert">Alert</button>
+    <button id="confirm">Confirm</button>
+    <button id="prompt">Prompt</button>
+    <button id="safer">Safer Prompt</button>
+    <output id="output"></output>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.0.1/purify.min.js" integrity="sha512-TU4FJi5o+epsahLtM9OFRvH2gXmmlzGlysk9wtTFgbYbMvFzh3Cw1l3ubnYIvBiZCC/aurRHS408TeEbcuOoyQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    const alertButton = document.querySelector('#alert');
+    const confirmButton = document.querySelector('#confirm');
+    const promptButton = document.querySelector('#prompt');
+    const saferButton = document.querySelector('#safer');
+    const output = document.querySelector('#output');
+
+    alertButton.addEventListener('click', () => {
+        alert('Alert pressed!');
+    });
+
+    confirmButton.addEventListener('click', () => {
+        let res = confirm('Do you confirm this?');
+        if (res) {
+            output.innerHTML = "The value returned by the confirm method is: true";
+        } else {
+            output.innerHTML = "The value returned by the confirm method is: false";
+        }
+    });
+
+    promptButton.addEventListener('click', () => {
+        let res = prompt('What is your name?');
+        output.innerHTML = "Prompt result: User didn't enter anything";
+        if (res != null && res.length > 0) {
+            output.innerHTML = "Prompt result: " + res;
+        }
+    });
+
+    saferButton.addEventListener('click', () => {
+        let res = prompt('What is your name?');
+        output.innerHTML = "Prompt result: User didn't enter anything";
+        if (res != null && res.length > 0) {
+            res = DOMPurify.sanitize(res);
+            output.innerHTML = "Prompt result: " + res;
+        }
+    });
+</script>
