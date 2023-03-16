@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+</head>
+
+<body>
+    <!-- REACT COUNTER -->
+    <h1>REACT COUNTER</h1>
+    <div id="button-count-react"></div>
+
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="buttonCountReact.js"></script>
+
+    <hr>
+    
+    <!-- VUE COUNTER -->
+    <h1>VUE COUNTER</h1>
+    <div id="button-count-vue">
+        <button v-on:click="incrementCount">Times Clicked: {{ count }}</button>
+    </div>
+
+    <script src="https://unpkg.com/vue@3.2.0/dist/vue.global.js"></script>
+    <script>
+        const app = Vue.createApp({
+            data() {
+                return {
+                    count: 0
+                }
+            },
+            methods: {
+                incrementCount() {
+                    this.count++;
+                }
+            }
+        });
+
+        app.mount('#button-count-vue');
+    </script>
+</body> 
+</html>
